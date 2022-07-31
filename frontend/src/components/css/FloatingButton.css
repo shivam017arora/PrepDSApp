@@ -1,0 +1,25 @@
+.floating_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #444;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.floating_button:hover{
+    box-shadow: 0 0 10px #444;
+
+}
+
+.delete {
+    bottom: 20px;
+    right: 90px;
+}

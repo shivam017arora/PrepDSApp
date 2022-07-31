@@ -1,0 +1,50 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    background-color: #F8F8F8;
+    font-size: 2rem;
+    color: black;
+    height: 70px;
+}
+
+.navbar_container span {
+    margin-top: 0px;
+    font-weight: 800;
+}
+
+.navbar_container button {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px 20px;
+    border: 0.5px solid #444;
+    transition: .5s;
+}
+
+.navbar_container button:hover{
+    background-color: #444;
+    color: white;
+}
+
+.navbar_container input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+
+.search_field {
+    margin-top: 2px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}

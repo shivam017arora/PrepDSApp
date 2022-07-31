@@ -1,0 +1,59 @@
+.comment_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	box-shadow: 0 0 5px #333;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.postcomment {
+	padding: 10px;
+	box-shadow: 0 0 5px #333;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 350px;
+	height: 100px;
+}
+
+.comment_content {
+	color: #555;
+	font-size: .9rem;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.comment_links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-right: 30px;
+	width: 100%;
+}
+
+.upvote-link {
+	color: #555;
+	font-size: .9rem;
+	font-weight: 500;
+	font-style: italic;
+	cursor: pointer;
+}
+
+.upvote-link:hover{
+	color: #111;
+}
+
+.upvote-number {
+	color: #555;
+	font-size: .9rem;
+	font-weight: bold;
+	font-style: italic;
+}
